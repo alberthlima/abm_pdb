@@ -20,4 +20,3 @@ frontend/tsx-0/
 # Ignore PHP temporary files if any
 .phpunit.cache/
 .vscode/
-

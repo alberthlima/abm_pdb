@@ -73,6 +73,18 @@
             "php-http/discovery": true
         }
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/siat_laravel",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "abm/siat_laravel": "@dev"
+    },
     "minimum-stability": "stable",
     "prefer-stable": true
 }

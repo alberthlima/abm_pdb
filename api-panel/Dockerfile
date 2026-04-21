@@ -25,8 +25,8 @@ WORKDIR /var/www/html
 # Copiar archivos de la aplicación
 COPY . .
 
-# Instalar dependencias de Composer
-RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
+# Instalar dependencias de Composer (Desactivado para dev local)
+# RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
 # Exponer puerto
 EXPOSE 8000
