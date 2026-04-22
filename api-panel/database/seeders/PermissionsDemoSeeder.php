@@ -21,27 +21,42 @@ class PermissionsDemoSeeder extends Seeder
 
         Permission::create(['guard_name' => 'api','name' => 'escritorio']);
         // create permissions
-        Permission::create(['guard_name' => 'api','name' => 'registrar_categoria']);
-        Permission::create(['guard_name' => 'api','name' => 'listar_categoria']);
-        Permission::create(['guard_name' => 'api','name' => 'editar_categoria']);
-        Permission::create(['guard_name' => 'api','name' => 'eliminar_categoria']);
-
-        Permission::create(['guard_name' => 'api','name' => 'registrar_documento']);
-        Permission::create(['guard_name' => 'api','name' => 'listar_documento']);
-        Permission::create(['guard_name' => 'api','name' => 'editar_documento']);
-        Permission::create(['guard_name' => 'api','name' => 'eliminar_documento']);
-        
-        Permission::create(['guard_name' => 'api','name' => 'registrar_plan']);
-        Permission::create(['guard_name' => 'api','name' => 'listar_plan']);
-        Permission::create(['guard_name' => 'api','name' => 'editar_plan']);
-        Permission::create(['guard_name' => 'api','name' => 'eliminar_plan']);
-
         Permission::create(['guard_name' => 'api','name' => 'registrar_cliente']);
         Permission::create(['guard_name' => 'api','name' => 'listar_cliente']);
         Permission::create(['guard_name' => 'api','name' => 'editar_cliente']);
         Permission::create(['guard_name' => 'api','name' => 'eliminar_cliente']);
 
-        Permission::create(['guard_name' => 'api','name' => 'suscripciones']);
+        Permission::create(['guard_name' => 'api','name' => 'registrar_producto']);
+        Permission::create(['guard_name' => 'api','name' => 'listar_producto']);
+        Permission::create(['guard_name' => 'api','name' => 'editar_producto']);
+        Permission::create(['guard_name' => 'api','name' => 'eliminar_producto']);
+        
+        Permission::create(['guard_name' => 'api','name' => 'registrar_contrato']);
+        Permission::create(['guard_name' => 'api','name' => 'listar_contrato']);
+        Permission::create(['guard_name' => 'api','name' => 'editar_contrato']);
+        Permission::create(['guard_name' => 'api','name' => 'eliminar_contrato']);
+
+        Permission::create(['guard_name' => 'api','name' => 'registrar_abm']);
+        Permission::create(['guard_name' => 'api','name' => 'listar_abm']);
+        Permission::create(['guard_name' => 'api','name' => 'editar_abm']);
+        Permission::create(['guard_name' => 'api','name' => 'eliminar_abm']);
+
+        Permission::create(['guard_name' => 'api','name' => 'registrar_adenda']);
+        Permission::create(['guard_name' => 'api','name' => 'listar_adenda']);
+        Permission::create(['guard_name' => 'api','name' => 'editar_adenda']);
+        Permission::create(['guard_name' => 'api','name' => 'eliminar_adenda']);
+
+        Permission::create(['guard_name' => 'api','name' => 'registrar_factura']);
+        Permission::create(['guard_name' => 'api','name' => 'listar_factura']);
+        Permission::create(['guard_name' => 'api','name' => 'editar_factura']);
+        Permission::create(['guard_name' => 'api','name' => 'eliminar_factura']);
+
+        Permission::create(['guard_name' => 'api','name' => 'registrar_sucursal']);
+        Permission::create(['guard_name' => 'api','name' => 'listar_sucursal']);
+        Permission::create(['guard_name' => 'api','name' => 'editar_sucursal']);
+        Permission::create(['guard_name' => 'api','name' => 'eliminar_sucursal']);
+
+        Permission::create(['guard_name' => 'api','name' => 'sincronizacion']);
 
         Permission::create(['guard_name' => 'api','name' => 'reportes']);
 
@@ -54,6 +69,9 @@ class PermissionsDemoSeeder extends Seeder
         Permission::create(['guard_name' => 'api','name' => 'listar_usuario']);
         Permission::create(['guard_name' => 'api','name' => 'editar_usuario']);
         Permission::create(['guard_name' => 'api','name' => 'eliminar_usuario']);
+
+        Permission::create(['guard_name' => 'api','name' => 'configuracion']);
+
         
         // create roles and assign existing permissions
 

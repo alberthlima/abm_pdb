@@ -53,11 +53,20 @@ export const PERMISOS = [
         ]
     },
     {
-        'name': 'Suscripciones',
+        'name': 'Sincronización',
         'permisos': [
             {
-                name: 'Suscripciones',
-                permiso: 'suscripciones',
+                name: 'Sincronización',
+                permiso: 'sincronizacion',
+            },
+        ]
+    },
+    {
+        'name': 'Configuración',
+        'permisos': [
+            {
+                name: 'Configuración',
+                permiso: 'configuracion',
             },
         ]
     },
@@ -67,69 +76,6 @@ export const PERMISOS = [
             {
                 name: 'Reportes',
                 permiso: 'reportes',
-            },
-        ]
-    },
-    {
-        'name': 'Categorias',
-        'permisos': [
-            {
-                name: 'Registrar',
-                permiso: 'registrar_categoria',
-            },
-            {
-                name: 'Listado',
-                permiso: 'listar_categoria',
-            },
-            {
-                name: 'Editar',
-                permiso: 'editar_categoria',
-            },
-            {
-                name: 'Eliminar',
-                permiso: 'eliminar_categoria',
-            },
-        ]
-    },
-    {
-        'name': 'Documentos',
-        'permisos': [
-            {
-                name: 'Registrar',
-                permiso: 'registrar_documento',
-            },
-            {
-                name: 'Listado',
-                permiso: 'listar_documento',
-            },
-            {
-                name: 'Editar',
-                permiso: 'editar_documento',
-            },
-            {
-                name: 'Eliminar',
-                permiso: 'eliminar_documento',
-            },
-        ]
-    },
-    {
-        'name': 'Planes',
-        'permisos': [
-            {
-                name: 'Registrar',
-                permiso: 'registrar_plan',
-            },
-            {
-                name: 'Listado',
-                permiso: 'listar_plan',
-            },
-            {
-                name: 'Editar',
-                permiso: 'editar_plan',
-            },
-            {
-                name: 'Eliminar',
-                permiso: 'eliminar_plan',
             },
         ]
     },
@@ -151,6 +97,132 @@ export const PERMISOS = [
             {
                 name: 'Eliminar',
                 permiso: 'eliminar_cliente',
+            },
+        ]
+    },
+    {
+        'name': 'Productos/Servicios',
+        'permisos': [
+            {
+                name: 'Registrar',
+                permiso: 'registrar_producto',
+            },
+            {
+                name: 'Listado',
+                permiso: 'listar_producto',
+            },
+            {
+                name: 'Editar',
+                permiso: 'editar_producto',
+            },
+            {
+                name: 'Eliminar',
+                permiso: 'eliminar_producto',
+            },
+        ]
+    },
+    {
+        'name': 'Contratos',
+        'permisos': [
+            {
+                name: 'Registrar',
+                permiso: 'registrar_contrato',
+            },
+            {
+                name: 'Listado',
+                permiso: 'listar_contrato',
+            },
+            {
+                name: 'Editar',
+                permiso: 'editar_contrato',
+            },
+            {
+                name: 'Eliminar',
+                permiso: 'eliminar_contrato',
+            },
+        ]
+    },
+    {
+        'name': 'Gestiones ABMs',
+        'permisos': [
+            {
+                name: 'Registrar',
+                permiso: 'registrar_abm',
+            },
+            {
+                name: 'Listado',
+                permiso: 'listar_abm',
+            },
+            {
+                name: 'Editar',
+                permiso: 'editar_abm',
+            },
+            {
+                name: 'Eliminar',
+                permiso: 'eliminar_abm',
+            },
+        ]
+    },
+    {
+        'name': 'Adendas',
+        'permisos': [
+            {
+                name: 'Registrar',
+                permiso: 'registrar_adenda',
+            },
+            {
+                name: 'Listado',
+                permiso: 'listar_adenda',
+            },
+            {
+                name: 'Editar',
+                permiso: 'editar_adenda',
+            },
+            {
+                name: 'Eliminar',
+                permiso: 'eliminar_adenda',
+            },
+        ]
+    },
+    {
+        'name': 'Facturas',
+        'permisos': [
+            {
+                name: 'Registrar',
+                permiso: 'registrar_factura',
+            },
+            {
+                name: 'Listado',
+                permiso: 'listar_factura',
+            },
+            {
+                name: 'Editar',
+                permiso: 'editar_factura',
+            },
+            {
+                name: 'Eliminar',
+                permiso: 'eliminar_factura',
+            },
+        ]
+    },
+    {
+        'name': 'Sucursales',
+        'permisos': [
+            {
+                name: 'Registrar',
+                permiso: 'registrar_sucursal',
+            },
+            {
+                name: 'Listado',
+                permiso: 'listar_sucursal',
+            },
+            {
+                name: 'Editar',
+                permiso: 'editar_sucursal',
+            },
+            {
+                name: 'Eliminar',
+                permiso: 'eliminar_sucursal',
             },
         ]
     },

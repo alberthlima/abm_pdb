@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class userController extends Controller
@@ -20,7 +21,7 @@ class userController extends Controller
                     "id" => $user->id,
                     "full_name" => $user->name . " " . $user->surname,
                     "email" => $user->email,
-                    "avatar" => $user->avatar,
+                    "avatar" => $user->avatar ? env("APP_URL") . "storage/" . $user->avatar : NULL,
                     "created_at" => $user->created_at->format("Y/m/d H:i:s"),
                     "role_id" => $user->role_id,
                     "role" => [

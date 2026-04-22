@@ -11,7 +11,8 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.10.1",
         "php-open-source-saver/jwt-auth": "^2.8",
-        "spatie/laravel-permission": "^6.21"
+        "spatie/laravel-permission": "^6.21",
+        "abm/siat-laravel": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -76,15 +77,12 @@
     "repositories": [
         {
             "type": "path",
-            "url": "./packages/siat_laravel",
+            "url": "./packages/siat-laravel",
             "options": {
                 "symlink": true
             }
         }
     ],
-    "require": {
-        "abm/siat_laravel": "@dev"
-    },
     "minimum-stability": "stable",
     "prefer-stable": true
 }
